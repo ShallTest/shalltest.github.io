@@ -1,0 +1,273 @@
+/* index */
+
+body {
+    background-color: #fbfbe3;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #76a899;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /* Ensure header is positioned */
+    background-image: url('images/logo-teal.png'); /* Replace with your logo path */
+    background-size: 9em;; /* Adjust to fit the logo size */
+    background-repeat: no-repeat; /* Ensure logo is not repeated */
+    background-position: left; /* Center the logo */
+    padding-left: 60px; /* Adjust padding for logo positioning */
+}
+
+header .logo {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fbfbe3;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+main {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.welcome {
+    flex: 2; /* Take up 1 part of the available space */
+    margin-right: 20px; /* Add spacing between sections */
+    text-align: left;
+    margin: 50px;
+}
+
+.welcome h1 {
+    font-size: 4em;
+    margin: 0px;
+}
+
+.buttons button {
+    background-color: #76a899; /* Change the background color */
+    color: #fbfbe3; /* Change the text color */
+    font-family: 'Roboto Slab', serif; /* Change the font */
+    font-size: 1em; /* Change the font size */
+    padding: 5px 20px; /* Adjust the padding */
+    margin-right: 15px;
+    border: none; /* Remove the border */
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a transition effect */
+    margin-top: 50px;
+}
+
+.buttons button:hover {
+    background-color: #c49240; /* Change the hover background color */
+}
+
+
+.news{
+    flex: 1; /* Take up 1 part of the available space */
+    padding: 20px;
+    margin: 30px;
+}
+
+.about{
+    background-color: #d3a34b;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+.news h2 {
+    margin-left: 20px;
+    font-size: 1em;
+    color: #2a271e;
+}
+
+.about h2 {
+    font-size: 1em;
+    margin-bottom: 50px;;
+    color: #2a271e;
+}
+
+.news-item {
+    padding: 20px;
+    margin-top: 10px;
+    color: #fbfbe3;
+    border: none; /* Remove the border */
+    border-radius: 5px;
+    position: relative; /* Ensure header is positioned */
+    background-image: url('images/logo-teal.png'); /* Replace with your logo path */
+    background-size: 16em;; /* Adjust to fit the logo size */
+    background-repeat: no-repeat; /* Ensure logo is not repeated */
+    background-position: 70px 100px; /* Center the logo */
+    padding-left: 60px; /* Adjust padding for logo positioning */
+}
+
+.news h3,{
+    text-align: left;
+}
+
+.news p {
+    text-align: left;
+}
+
+.about-content h3{
+    margin-top: 0px;
+    font-size: 5em;
+}
+
+.about-content p{
+    font-size: 0.8em;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 80px;
+}
+
+.about-content {
+    background-color: #d3a34b;
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+}
+
+footer {
+    background-color: #8b3c33;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+/* feed */
+
+.feed {
+    padding: 70px;
+}
+
+.main-news {
+    margin-right: 20px;
+}
+
+.main-news-item {
+    border: none; /* Remove the border */
+    border-radius: 10px;
+    background-color: #789b96;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-news-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.newsquare {
+    display: flex;
+    justify-content:space-between;
+}
+
+.news-grid {
+    color: #e7e6c4;
+    margin: 70px;
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+}
+
+.news-item {
+    background-color: #76a899;
+    padding: 20px;
+    text-align: center;
+}
+
+.news-item a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}
+
+.news-item a:hover {
+    text-decoration: none; /* Remove underline on hover */
+    color: #8b3c33; /* Inherit color on hover */
+}
+
+.news-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-grid h3 {
+    font-size: 1.7em;
+}
+
+.recommendations {
+    flex: 1;
+    background-color: #e7e6c4;
+    padding: 50px;
+}
+
+.recommendation-item {
+    margin-bottom: 20px;
+}
+
+.recommendation-item a {
+    color: #789b96;
+    text-decoration: none;
+}
+
+/* news */
+
+.news-detail {
+    display: flex;
+    justify-content: space-between; /* Ensures space between content and image */
+    align-items: flex-start; /* Aligns items to the top */
+    padding: 70px;
+}
+
+.news-content {
+    flex: 1; /* Takes up remaining space */
+    margin-right: 20px; /* Adds spacing between the content and image */
+}
+
+.news-content h2 {
+    font-size: 3em;
+}
+
+.thumbnail {
+    max-width: 350px; /* Adjust width as needed */
+}
+
+.thumbnail img {
+    max-width: 100%; /* Ensures the image fits within its container */
+    height: auto; /* Maintains the aspect ratio */
+}
